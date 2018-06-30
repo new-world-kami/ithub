@@ -4,7 +4,8 @@
   "description": "一个简单的问答社区",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,13 @@
   },
   "homepage": "https://github.com/new-world-kami/ithub#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "art-template": "^4.12.2",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.3",
+    "express-art-template": "^1.0.1",
+    "jquery": "^3.3.1",
+    "md5": "^2.2.1",
+    "mysql": "^2.15.0"
   }
 }
